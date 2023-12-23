@@ -1,0 +1,10 @@
+
+<div *ngFor="let boxes of colorBoxes; let index = index" class="grid">
+    <div *ngFor="let box of boxes;">
+        <app-color-box  [box]="box">
+           
+        </app-color-box>
+        
+    </div>
+</div>
+
